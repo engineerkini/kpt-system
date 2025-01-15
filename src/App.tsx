@@ -27,7 +27,6 @@ const App: React.FC = () => {
     <Provider store={store}>
       <Router>
         <div style={{ display: "flex" }}>
-          <Sidebar />
           <div style={{ flex: 1 }}>
             <Navbar />
             <div style={{ padding: "16px" }}>
