@@ -1,10 +1,11 @@
 import jsPDF from "jspdf";
-import "jspdf-autotable";
+
+import autoTable from "jspdf-autotable";
 
 export const generatePDF = (title: string, headers: string[], data: any[]) => {
   const doc = new jsPDF();
   doc.text(title, 20, 10);
-  doc.autoTable({
+  autoTable(doc, {
     head: [headers],
     body: data,
   });

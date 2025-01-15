@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { Provider } from "react-redux";
 import store from "./redux/store";
-import Dashboard from "./pages/Dashboard/Dashboard";
+import Dashboard from "./pages/Dashboard/Overview";
 import AddStudent from "./pages/StudentManagement/AddStudent";
 import StudentList from "./pages/StudentManagement/StudentList";
 import StudentReport from "./pages/StudentManagement/StudentReport";

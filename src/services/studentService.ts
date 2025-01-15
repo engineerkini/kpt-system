@@ -7,7 +7,7 @@ export const getStudents = async () => {
   return response.data;
 };
 
-export const addStudent = async (student) => {
+export const addStudent = async (student: string) => {
   const response = await axios.post(API_URL, student);
   return response.data;
 };

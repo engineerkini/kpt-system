@@ -7,7 +7,7 @@ export const getFees = async () => {
   return response.data;
 };
 
-export const addFee = async (fee) => {
+export const addFee = async (fee: string) => {
   const response = await axios.post(API_URL, fee);
   return response.data;
 };

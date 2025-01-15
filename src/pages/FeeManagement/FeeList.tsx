@@ -9,7 +9,7 @@ import {
   TableRow,
   Button,
 } from "@mui/material";
-import FeeDetail from "./FeeDetail";
+import FeeDetail from "./FeeDetails";
 
 const FeeList: React.FC = () => {
   const [fees, setFees] = useState([

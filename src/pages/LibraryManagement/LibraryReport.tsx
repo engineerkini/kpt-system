@@ -16,7 +16,7 @@ import {
 const LibraryReport: React.FC = () => {
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
-  const [reportData, setReportData] = useState([]);
+  const [reportData, setReportData] = useState<any[]>([]);
 
   const handleGenerateReport = () => {
     // Implement report generation logic here

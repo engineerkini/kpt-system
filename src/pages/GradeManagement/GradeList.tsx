@@ -9,7 +9,7 @@ import {
   TableRow,
   Button,
 } from "@mui/material";
-import GradeDetail from "./GradeDetail";
+import GradeDetail from "./GradeDetails";
 
 const GradeList: React.FC = () => {
   const [grades, setGrades] = useState([

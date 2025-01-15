@@ -7,7 +7,7 @@ export const getAttendance = async () => {
   return response.data;
 };
 
-export const addAttendance = async (attendance) => {
+export const addAttendance = async (attendance: any) => {
   const response = await axios.post(API_URL, attendance);
   return response.data;
 };

@@ -7,7 +7,7 @@ export const getTeachers = async () => {
   return response.data;
 };
 
-export const addTeacher = async (teacher) => {
+export const addTeacher = async (teacher: string) => {
   const response = await axios.post(API_URL, teacher);
   return response.data;
 };

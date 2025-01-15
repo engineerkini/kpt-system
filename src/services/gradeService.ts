@@ -7,7 +7,7 @@ export const getGrades = async () => {
   return response.data;
 };
 
-export const addGrade = async (grade) => {
+export const addGrade = async (grade: string) => {
   const response = await axios.post(API_URL, grade);
   return response.data;
 };
